@@ -110,7 +110,7 @@ class OtpScreen extends StatelessWidget {
             CustomButtonNewV2(
               centerText: "Next",
               onPressed: () {
-                Get.offAllNamed(RoutingNameConstants.HOME_SCREEN);
+                Get.toNamed(RoutingNameConstants.HOME_SCREEN);
               },
             ),
           ],
